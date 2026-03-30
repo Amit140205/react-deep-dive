@@ -1,0 +1,17 @@
+why not Anchor tag?
+=> In React (specifically with React Router), we avoid using <a> tags for internal navigation because:
+<a> tags cause a full page reload.
+They ask the browser to request the new page from the server again.
+This breaks the Single Page Application (SPA) behavior.
+
+🧠 SPA = Single HTML page + dynamic content swapping using JavaScript.
+
+Link => Used for navigation without page reload.
+Works by updating the URL and rendering the correct component without refreshing the page.
+to is like href (tells it where to go).
+
+
+NavLink => It's like Link, but with extra styling and logic for active links.
+Automatically applies a class (e.g., active) when the link matches the current URL.
+Super useful for navbars, menus, sidebars, etc.
+

@@ -1,0 +1,7 @@
+Redux : A JS library for predictable and maintainable global state management
+
+Redux-toolkit : The official, opinionated, batteries-included toolset for efficient Redux development
+
+Two library
+Redux : Core state management — logic only, pure JavaScript.
+React-redux => Connects Redux to React — so React components can use it.

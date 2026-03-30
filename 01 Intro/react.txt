@@ -1,0 +1,14 @@
+React : React is a Javascript libraby for building user interfaces
+It is Single Page Application (SPA)
+
+Yes, React is officially a library, but it sometimes behaves like a framework. Let me explain why.
+
+Why React is a Library?
+React only handles the UI layer (rendering components).
+It does not dictate project structure—you decide how to organize state, routing, etc.
+You control the flow—React doesn't enforce how you fetch data or manage state.
+
+Why People Call React a Framework?
+React has a strong ecosystem (React Router, Redux, Next.js, etc.), making it feel like a framework.
+Many developers follow React’s conventions for structuring projects.
+Tools like Create React App (CRA) and Next.js make React behave more like a framework.

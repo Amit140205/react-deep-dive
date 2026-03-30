@@ -1,0 +1,7 @@
+//npx => node package executor
+npx create-react-app <name>
+
+//to run
+npm run start //for development environment
+npm run build //for production environment
+

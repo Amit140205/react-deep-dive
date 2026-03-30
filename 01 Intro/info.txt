@@ -1,0 +1,17 @@
+Framework vs Libraby
+
+A framework and a library are both collections of reusable code, but they serve different purposes in software development.
+
+Framework : A framework provides a structured environment for building applications. It dictates the architecture and flow of the application, often requiring developers to follow its rules and conventions.
+Example : Django (Python), Angular (TypeScript), ASP.NET Core (.NET), Spring (Java) 
+
+Libraby : A library is a collection of reusable functions or modules that you can call in your code whenever needed. Unlike a framework, a library does not enforce a structure on your application.
+Example : JavaScript Libraries:
+                React (UI) 
+                jQuery (DOM manipulation) 
+                D3.js (Data Visualization) 
+                Vue.js (UI) 
+          Python Libraries:
+                NumPy (numerical computing)
+                Pandas (data analysis)
+                Scikit-learn (machine learning)
