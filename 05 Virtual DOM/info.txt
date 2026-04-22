@@ -1,3 +1,13 @@
 https://github.com/acdlite/react-fiber-architecture
 
 https://chatgpt.com/share/68025b7d-bb7c-8004-9861-9557e6cbbdcd
+
+
+“In React, the core idea behind efficient UI updates is reconciliation, which is the process of comparing the previous UI with the new UI to determine what has changed. React does this using a concept called the Virtual DOM, which is a lightweight in-memory representation of the real DOM.
+
+Whenever state or props change, React creates a new Virtual DOM tree and compares it with the old one — this diffing process helps React identify only the parts that need updating, instead of re-rendering the entire UI.
+
+Now, React Fiber is an improved version of this reconciliation algorithm. Earlier, reconciliation was synchronous and could block the UI, but Fiber makes it asynchronous and more efficient by breaking work into small units, prioritizing important updates like user interactions, and allowing React to pause and resume rendering.
+
+So in short:
+Reconciliation is the core algorithm, Virtual DOM is the mechanism used for comparison, and Fiber is the modern implementation that makes the whole process faster and smoother.”

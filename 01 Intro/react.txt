@@ -12,3 +12,7 @@ Why People Call React a Framework?
 React has a strong ecosystem (React Router, Redux, Next.js, etc.), making it feel like a framework.
 Many developers follow React’s conventions for structuring projects.
 Tools like Create React App (CRA) and Next.js make React behave more like a framework.
+
+
+npm vs npx
+The primary difference is that npm is a tool for managing packages (installing, updating, and tracking dependencies), while npx is a tool for executing packages without needing to install them permanently. 

@@ -16,8 +16,12 @@ export const todoSlice = createSlice({
     name : "todo",
     initialState,
     reducers : {
+        // A slice is a small part of our app’s total state.
         //state :  means the current data of this slice.
         //action : instruction object sent to your reducer.
+//       A reducer is just a function that:
+        // Takes the current state and an action
+        // Returns the new state based on that action.
         addTodo : (state,action)=>{
             const todo = {
                 id : nanoid(),
